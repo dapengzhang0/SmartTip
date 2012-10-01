@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2FE658616193325003C50D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2FE658516193325003C50D6 /* UIKit.framework */; };
+		E2FE658816193325003C50D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2FE658716193325003C50D6 /* Foundation.framework */; };
+		E2FE658A16193325003C50D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2FE658916193325003C50D6 /* CoreGraphics.framework */; };
+		E2FE659016193325003C50D6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2FE658E16193325003C50D6 /* InfoPlist.strings */; };
+		E2FE659216193325003C50D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE659116193325003C50D6 /* main.m */; };
+		E2FE659616193325003C50D6 /* TIPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE659516193325003C50D6 /* TIPAppDelegate.m */; };
+		E2FE659916193325003C50D6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2FE659716193325003C50D6 /* MainStoryboard.storyboard */; };
+		E2FE659C16193325003C50D6 /* TIPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE659B16193325003C50D6 /* TIPViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E2FE658116193325003C50D6 /* SmartTip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartTip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2FE658516193325003C50D6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E2FE658716193325003C50D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E2FE658916193325003C50D6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E2FE658D16193325003C50D6 /* SmartTip-Info.plist */ = {isa = PBXFileReference; path = "SmartTip-Info.plist"; sourceTree = "<group>"; };
+		E2FE658F16193325003C50D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E2FE659116193325003C50D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2FE659316193325003C50D6 /* SmartTip-Prefix.pch */ = {isa = PBXFileReference; path = "SmartTip-Prefix.pch"; sourceTree = "<group>"; };
+		E2FE659416193325003C50D6 /* TIPAppDelegate.h */ = {isa = PBXFileReference; path = TIPAppDelegate.h; sourceTree = "<group>"; };
+		E2FE659516193325003C50D6 /* TIPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TIPAppDelegate.m; sourceTree = "<group>"; };
+		E2FE659816193325003C50D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E2FE659A16193325003C50D6 /* TIPViewController.h */ = {isa = PBXFileReference; path = TIPViewController.h; sourceTree = "<group>"; };
+		E2FE659B16193325003C50D6 /* TIPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TIPViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2FE657E16193325003C50D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2FE658616193325003C50D6 /* UIKit.framework in Frameworks */,
+				E2FE658816193325003C50D6 /* Foundation.framework in Frameworks */,
+				E2FE658A16193325003C50D6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2FE657616193325003C50D6 = {
+			isa = PBXGroup;
+			children = (
+				E2FE658B16193325003C50D6 /* SmartTip */,
+				E2FE658416193325003C50D6 /* Frameworks */,
+				E2FE658216193325003C50D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2FE658216193325003C50D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2FE658116193325003C50D6 /* SmartTip.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2FE658416193325003C50D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2FE658516193325003C50D6 /* UIKit.framework */,
+				E2FE658716193325003C50D6 /* Foundation.framework */,
+				E2FE658916193325003C50D6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2FE658B16193325003C50D6 /* SmartTip */ = {
+			isa = PBXGroup;
+			children = (
+				E2FE659416193325003C50D6 /* TIPAppDelegate.h */,
+				E2FE659516193325003C50D6 /* TIPAppDelegate.m */,
+				E2FE659716193325003C50D6 /* MainStoryboard.storyboard */,
+				E2FE659A16193325003C50D6 /* TIPViewController.h */,
+				E2FE659B16193325003C50D6 /* TIPViewController.m */,
+				E2FE658C16193325003C50D6 /* Supporting Files */,
+			);
+			path = SmartTip;
+			sourceTree = "<group>";
+		};
+		E2FE658C16193325003C50D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2FE658D16193325003C50D6 /* SmartTip-Info.plist */,
+				E2FE658E16193325003C50D6 /* InfoPlist.strings */,
+				E2FE659116193325003C50D6 /* main.m */,
+				E2FE659316193325003C50D6 /* SmartTip-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2FE658016193325003C50D6 /* SmartTip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2FE659F16193325003C50D6 /* Build configuration list for PBXNativeTarget "SmartTip" */;
+			buildPhases = (
+				E2FE657D16193325003C50D6 /* Sources */,
+				E2FE657E16193325003C50D6 /* Frameworks */,
+				E2FE657F16193325003C50D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartTip;
+			productName = SmartTip;
+			productReference = E2FE658116193325003C50D6 /* SmartTip.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2FE657816193325003C50D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E2FE657B16193325003C50D6 /* Build configuration list for PBXProject "SmartTip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E2FE657616193325003C50D6;
+			productRefGroup = E2FE658216193325003C50D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2FE658016193325003C50D6 /* SmartTip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2FE657F16193325003C50D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2FE659016193325003C50D6 /* InfoPlist.strings in Resources */,
+				E2FE659916193325003C50D6 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2FE657D16193325003C50D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2FE659216193325003C50D6 /* main.m in Sources */,
+				E2FE659616193325003C50D6 /* TIPAppDelegate.m in Sources */,
+				E2FE659C16193325003C50D6 /* TIPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E2FE658E16193325003C50D6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2FE658F16193325003C50D6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E2FE659716193325003C50D6 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2FE659816193325003C50D6 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2FE659D16193325003C50D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E2FE659E16193325003C50D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2FE65A016193325003C50D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartTip/SmartTip-Prefix.pch";
+				INFOPLIST_FILE = "SmartTip/SmartTip-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E2FE65A116193325003C50D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartTip/SmartTip-Prefix.pch";
+				INFOPLIST_FILE = "SmartTip/SmartTip-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2FE657B16193325003C50D6 /* Build configuration list for PBXProject "SmartTip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2FE659D16193325003C50D6 /* Debug */,
+				E2FE659E16193325003C50D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2FE659F16193325003C50D6 /* Build configuration list for PBXNativeTarget "SmartTip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2FE65A016193325003C50D6 /* Debug */,
+				E2FE65A116193325003C50D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2FE657816193325003C50D6 /* Project object */;
+}
