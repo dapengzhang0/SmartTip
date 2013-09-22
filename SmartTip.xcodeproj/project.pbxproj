@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E204B48E163A29BC00C6EF59 /* tips.png in Resources */ = {isa = PBXBuildFile; fileRef = E204B48D163A29BC00C6EF59 /* tips.png */; };
+		E204B491163B605B00C6EF59 /* RoundingBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = E204B490163B605B00C6EF59 /* RoundingBehavior.m */; };
+		E281FF111637CA8600A2A5D1 /* TaxRateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E281FF101637CA8600A2A5D1 /* TaxRateView.xib */; };
+		E2D0003B1628E6DF0019B7AF /* MyBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D0003A1628E6DF0019B7AF /* MyBackgroundView.m */; };
+		E2D0003E1628EC4C0019B7AF /* MyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D0003D1628EC4C0019B7AF /* MyModel.m */; };
 		E2FE658616193325003C50D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2FE658516193325003C50D6 /* UIKit.framework */; };
 		E2FE658816193325003C50D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2FE658716193325003C50D6 /* Foundation.framework */; };
 		E2FE658A16193325003C50D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2FE658916193325003C50D6 /* CoreGraphics.framework */; };
@@ -15,22 +20,32 @@
 		E2FE659616193325003C50D6 /* TIPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE659516193325003C50D6 /* TIPAppDelegate.m */; };
 		E2FE659916193325003C50D6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2FE659716193325003C50D6 /* MainStoryboard.storyboard */; };
 		E2FE659C16193325003C50D6 /* TIPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2FE659B16193325003C50D6 /* TIPViewController.m */; };
+		E2FE65A716195F4D003C50D6 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2FE65A616195F4D003C50D6 /* Entitlements.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E204B48D163A29BC00C6EF59 /* tips.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tips.png; sourceTree = "<group>"; };
+		E204B48F163B605B00C6EF59 /* RoundingBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundingBehavior.h; sourceTree = "<group>"; };
+		E204B490163B605B00C6EF59 /* RoundingBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundingBehavior.m; sourceTree = "<group>"; };
+		E281FF101637CA8600A2A5D1 /* TaxRateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TaxRateView.xib; sourceTree = "<group>"; };
+		E2D000391628E6D60019B7AF /* MyBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyBackgroundView.h; sourceTree = "<group>"; };
+		E2D0003A1628E6DF0019B7AF /* MyBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyBackgroundView.m; sourceTree = "<group>"; };
+		E2D0003C1628EC4C0019B7AF /* MyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyModel.h; sourceTree = "<group>"; };
+		E2D0003D1628EC4C0019B7AF /* MyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyModel.m; sourceTree = "<group>"; };
 		E2FE658116193325003C50D6 /* SmartTip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartTip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2FE658516193325003C50D6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E2FE658716193325003C50D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E2FE658916193325003C50D6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E2FE658D16193325003C50D6 /* SmartTip-Info.plist */ = {isa = PBXFileReference; path = "SmartTip-Info.plist"; sourceTree = "<group>"; };
+		E2FE658D16193325003C50D6 /* SmartTip-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmartTip-Info.plist"; sourceTree = "<group>"; };
 		E2FE658F16193325003C50D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E2FE659116193325003C50D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E2FE659316193325003C50D6 /* SmartTip-Prefix.pch */ = {isa = PBXFileReference; path = "SmartTip-Prefix.pch"; sourceTree = "<group>"; };
-		E2FE659416193325003C50D6 /* TIPAppDelegate.h */ = {isa = PBXFileReference; path = TIPAppDelegate.h; sourceTree = "<group>"; };
+		E2FE659316193325003C50D6 /* SmartTip-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmartTip-Prefix.pch"; sourceTree = "<group>"; };
+		E2FE659416193325003C50D6 /* TIPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TIPAppDelegate.h; sourceTree = "<group>"; };
 		E2FE659516193325003C50D6 /* TIPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TIPAppDelegate.m; sourceTree = "<group>"; };
 		E2FE659816193325003C50D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		E2FE659A16193325003C50D6 /* TIPViewController.h */ = {isa = PBXFileReference; path = TIPViewController.h; sourceTree = "<group>"; };
+		E2FE659A16193325003C50D6 /* TIPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TIPViewController.h; sourceTree = "<group>"; };
 		E2FE659B16193325003C50D6 /* TIPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TIPViewController.m; sourceTree = "<group>"; };
+		E2FE65A616195F4D003C50D6 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +65,7 @@
 		E2FE657616193325003C50D6 = {
 			isa = PBXGroup;
 			children = (
+				E2FE65A616195F4D003C50D6 /* Entitlements.plist */,
 				E2FE658B16193325003C50D6 /* SmartTip */,
 				E2FE658416193325003C50D6 /* Frameworks */,
 				E2FE658216193325003C50D6 /* Products */,
@@ -77,11 +93,16 @@
 		E2FE658B16193325003C50D6 /* SmartTip */ = {
 			isa = PBXGroup;
 			children = (
+				E2D0003A1628E6DF0019B7AF /* MyBackgroundView.m */,
+				E2D000391628E6D60019B7AF /* MyBackgroundView.h */,
 				E2FE659416193325003C50D6 /* TIPAppDelegate.h */,
 				E2FE659516193325003C50D6 /* TIPAppDelegate.m */,
 				E2FE659716193325003C50D6 /* MainStoryboard.storyboard */,
+				E281FF101637CA8600A2A5D1 /* TaxRateView.xib */,
 				E2FE659A16193325003C50D6 /* TIPViewController.h */,
 				E2FE659B16193325003C50D6 /* TIPViewController.m */,
+				E2D0003C1628EC4C0019B7AF /* MyModel.h */,
+				E2D0003D1628EC4C0019B7AF /* MyModel.m */,
 				E2FE658C16193325003C50D6 /* Supporting Files */,
 			);
 			path = SmartTip;
@@ -90,8 +111,11 @@
 		E2FE658C16193325003C50D6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E204B48D163A29BC00C6EF59 /* tips.png */,
 				E2FE658D16193325003C50D6 /* SmartTip-Info.plist */,
 				E2FE658E16193325003C50D6 /* InfoPlist.strings */,
+				E204B48F163B605B00C6EF59 /* RoundingBehavior.h */,
+				E204B490163B605B00C6EF59 /* RoundingBehavior.m */,
 				E2FE659116193325003C50D6 /* main.m */,
 				E2FE659316193325003C50D6 /* SmartTip-Prefix.pch */,
 			);
@@ -150,6 +174,9 @@
 			files = (
 				E2FE659016193325003C50D6 /* InfoPlist.strings in Resources */,
 				E2FE659916193325003C50D6 /* MainStoryboard.storyboard in Resources */,
+				E2FE65A716195F4D003C50D6 /* Entitlements.plist in Resources */,
+				E281FF111637CA8600A2A5D1 /* TaxRateView.xib in Resources */,
+				E204B48E163A29BC00C6EF59 /* tips.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +190,9 @@
 				E2FE659216193325003C50D6 /* main.m in Sources */,
 				E2FE659616193325003C50D6 /* TIPAppDelegate.m in Sources */,
 				E2FE659C16193325003C50D6 /* TIPViewController.m in Sources */,
+				E2D0003B1628E6DF0019B7AF /* MyBackgroundView.m in Sources */,
+				E2D0003E1628EC4C0019B7AF /* MyModel.m in Sources */,
+				E204B491163B605B00C6EF59 /* RoundingBehavior.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,10 +266,13 @@
 		E2FE65A016193325003C50D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SmartTip/SmartTip-Prefix.pch";
 				INFOPLIST_FILE = "SmartTip/SmartTip-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -247,10 +280,13 @@
 		E2FE65A116193325003C50D6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SmartTip/SmartTip-Prefix.pch";
 				INFOPLIST_FILE = "SmartTip/SmartTip-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -274,6 +310,7 @@
 				E2FE65A116193325003C50D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
